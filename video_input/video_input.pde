@@ -103,7 +103,7 @@ void draw() {
   //pickOutColors();
   
   //change colormode to RGB for this one:
-  blobTracking();
+  //blobTracking();
 }
 
 void normalVideo(){
