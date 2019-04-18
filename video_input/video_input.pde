@@ -24,9 +24,6 @@ OPC opc;
 // updates the amount of rotation for the rotating function
 float rotation;
 
-// For the squiggle function
-float x;
-float y;
 
 // For the blob tracking function
 color trackColor; 
@@ -44,10 +41,6 @@ void setup() {
   
   // Start the background as black
   background(0);
-  
-  // Start x and y in the center for the squiggle function 
-  x = width/2;  
-  y = height/2;
   
   // Default color to track in blob tracking
   trackColor = color(100, 0, 0);
