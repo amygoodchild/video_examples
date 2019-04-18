@@ -37,7 +37,7 @@ void setup() {
   
   // Sets the color mode. Most of these use HSB (hue, saturation, brightness)
   // But the blob tracking one uses RGB (red, green, blue)
-  colorMode(RGB,100);
+  colorMode(HSB,100);
   
   // Start the background as black
   background(0);
